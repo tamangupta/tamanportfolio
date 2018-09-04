@@ -1,0 +1,249 @@
+:root{
+  font-size: 16px;
+};
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: auto;
+  height: auto;
+  background: linear-gradient(#1D4350,#A43931);
+}
+.header {
+  width: auto;
+  height: auto;
+  background: linear-gradient(#C04848,#480048);
+
+}
+.header img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 590px;
+  padding-top: 5px;
+} 
+.header h2{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: -1px;
+  color: #EDE574;
+
+}  
+.header h2:hover{
+  text-decoration: none;
+  color: #A43931;
+  cursor: pointer;
+}
+.header h3{
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.header h3:hover{
+  text-decoration:none;
+  color: #c31432;
+}
+.row{
+  width: 100%;
+  height: auto;
+  background-image: url("background.jpeg");   
+}
+.heading{
+  width: 50%;
+  height: auto;
+  padding-left: 20px;
+  background: #b2cecf;
+}
+.heading h1{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 2.5rem;
+}
+.heading h1:hover{
+  color: #c31432;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.intro{
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background: #222233;
+  margin-top: -26px;
+  opacity: 0.9;
+}
+.intro p{
+  color: #AACCFF;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+.intrest{
+  width: 50%;
+  height: auto;
+  padding-left: 20px;
+  background: #b2cecf;
+  margin-top: -26px;
+}
+.intrest h1{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 2.5rem;
+}
+.intrest h1:hover{
+  color: #c31432;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.interestpara{
+  background-image: url("contentpic.jpeg");
+  height: auto;
+  width: auto;
+  opacity: 0.8; 
+  margin-top: -27px;
+  overflow: auto;
+}
+.interestpara h2{
+  color: #c31432;
+  text-align: left;
+  padding-left: 15px;
+}
+.interestpara h2:hover{
+  color: #FFE000;
+  text-orientation: upright;
+}
+.interestpara img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 100px;
+  padding-top: 5px;
+}
+.interestpara h3 {
+  text-align: right;
+  padding-right: 15px;
+  color: dodgerblue;
+}
+.interestpara h3:hover{
+  color: #FFE000;
+}
+.projectheading {
+  width: 50%;
+  height: auto;
+  padding-left: 20px;
+  margin-top: -26px;
+  background: #b2cecf;
+}
+.projectheading h1{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 2.5rem;
+}
+.projectheading h1:hover{
+  color: #c31432;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.projectcontent{
+  width: auto;
+  height: auto;
+  padding: 20px;
+  background: #222233;
+  margin-top: -26px;
+  opacity: 0.9;
+}
+.projectcontent p{
+  color: #AACCFF;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+.projectcontent a {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.projectcontent a:hover{
+  color: #c31432;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.foottitle{
+   width: 50%;
+  height: auto;
+  padding-left: 20px;
+  background: #b2cecf;
+  margin-top: -26px;
+}
+.foottitle h1{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 2.5rem;
+}
+.foottitle h1:hover{
+  color: #c31432;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.row1{
+  background: radial-gradient(#334d50,#cbcaa5);
+  margin-top: -27px;
+  padding: 15px;
+  opacity: 0.9;
+
+}
+.row1 .column img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.row1 .column h2{
+  color: #16A085;
+  font-size: 1.5em;
+}
+.row1 .column h2:hover{
+  color: #EDE574;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.row1 .column1 h4{
+  font-size: 1em;
+  color: #1F1C2C;
+}
+.row1 .column1 h4:hover{
+  text-decoration: none;
+  color: #EDE574;
+  cursor: pointer;
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1 .column1 h5{
+  font-size: 1em;
+  color: #1F1C2C;
+}
+.row1 .column1 h5:hover{
+  text-decoration: none;
+  color: #EDE574;
+  cursor: pointer;
+}
+
+//flexbox 
+.container{
+  display: flex;
+  align-items: flex-end;
+}
+//meadia queries
+@media screen and (max-width: 480px) {
+
+    .header .img{
+          margin-left: 500px;
+          width: 70px;
+          height: 70px;
+  }
+  }
+@media screen and (min-width: 480px) and (max-width: 767px){
+  .header img{
+          margin: 400px; 
+          width: 100px;
+          height: 100px; }
+}
